@@ -223,51 +223,10 @@ public class ListeningTour {
 		FilterQuery query = new FilterQuery();
 		
 	
-		String[] uOfOKeywords = {"#roadtouo",
-								 "#goducks",
-								 "#oregon",
-								"#futureoregonduck",
-								"#oregonducks",
-								"#beanoregonduck",
-								"@beanoregonduck",
-								"#ilovemyducks",
-								"#uoregon",
-								"#wintheday",
-								 "#ducks",
-								"#oregonbound",
-								"#Callmeaduck",
-								"@callmeaduck",
-								"#hellouo",
-								"#idoregon",
-								"#exploregon",
-								"#eug",
-								"#eugene",
-								"#duckweather",
-								"#wtd",
-								"#mightyoregon",
-								"#niceweatherforducks",
-								"#itseasybeinggreen",
-								"#itseasybeingineugene",
-								"#ducksunlimited",
-								"#duckcountry",
-								"#walklikeaduck",
-								"#aroundtheo",
-								"#talklikeaduck",
-								"#quackattack",
-								"#quackedup",
-								"#fastasduck",
-								"#theduckzone",
-								"#greennyellow",
-								"#greenandyellow",
-								"#yello",
-								"#duckoff",
-								"#uo",
-								"@Univ_of_Oregon",
-								"University Of Oregon",
-								"uofo"
-								};
+		String[] keywords = { // array of keywords
+							};
 
-		query.track(uOfOKeywords);
+		query.track(keywords);
 		
 		stream.addListener(listener);
 		
